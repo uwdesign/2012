@@ -1,0 +1,115 @@
+#theshow {
+    height:1px;
+    width:1px;
+    margin:0px;
+    padding:0px;
+    position:absolute;
+    top:3000px;
+    left:0px;
+}
+
+#parallax-container {
+    height:5800px;
+    width:100%;
+    margin:0px;
+    background-color:#000000;
+}
+
+#plax-elem0 {
+    height:31px;
+    width:100%;
+    position:absolute;
+    text-align:center;
+    z-index:10;
+}
+
+#plax-elem1,
+#plax-elem2,
+#plax-elem3,
+#plax-elem4 {
+    height:376px;
+    width:707px;
+    position:fixed;
+    left:28px;
+    background-repeat:no-repeat;
+    z-index:10;
+}
+
+#plax-elem0 { top:300px; }/*
+#plax-elem1 { top:-1800px; background:url('../images/parallax-1.png'); }
+#plax-elem2 { top:-400px;  background:url('../images/parallax-2.png'); }
+#plax-elem3 { top:1000px;  background:url('../images/parallax-3.png'); }
+#plax-elem4 { top:2400px;  background:url('../images/parallax-4.png'); }
+                          */
+
+#plax-elem1 { top:-1800px;}
+#plax-elem2 { top:-400px;}
+#plax-elem3 { top:1000px;}
+#plax-elem4 { top:2400px;}
+
+#plax-info1,
+#plax-info2 {
+    position:fixed;
+    z-index:10;
+}
+
+#plax-info1 { top:1000px; left:30px }
+#plax-info2 { top:1000px; left:480px }
+
+
+/* styles unrelated to parallax movement (plax-info and sub-divs) */
+
+#plax-info1 {
+    height:auto;
+    width:440px;
+    margin:0px;
+    padding:0px;
+}
+
+#plax-info2 {
+    height:auto;
+    width:360px;
+    margin:0px;
+    padding:0px;
+}
+
+.plax-info-head {
+    height:auto;
+    width:100%;
+    margin:0px 0px 16px 0px;
+    padding:0px 0px;
+}
+
+.plax-info-subhead {
+    height:auto;
+    width:100%;
+    margin:0px 0px 24px 0px;
+    padding:8px 0px;
+    border-top:1px solid #6E6E70;
+    border-bottom:1px solid #6E6E70;
+}
+
+.plax-info-scol, .plax-info-lcol {
+    height:auto;
+    margin:0px;
+    padding:0px 20px 0px 0px;
+    position:relative;
+    float:left;
+}
+
+.plax-info-scol {
+    width:160px;
+}
+
+.plax-info-lcol {
+    width:240px;
+}
+
+.plax-h1, .plax-h2, .plax-h3 {
+    color:#ffffff;
+}
+
+.plax-info-scol p, .plax-info-lcol p {
+    margin:4px 0px 15px 0px;
+    color:#6E6E70;
+}

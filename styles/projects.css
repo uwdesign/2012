@@ -1,0 +1,284 @@
+#personav {
+    height:auto;
+    width:100%;
+    margin:0px;
+    padding:0px;
+    position:fixed;
+    top:46px;
+    left:0px;
+    background-color:#ffffff;
+    border-bottom:1px solid #CDCFD0;
+    opacity:0.95;
+    z-index:999;
+}
+
+.personav-content {
+    height:84px;
+    margin:0px;
+    position:relative;
+    float:left;
+}
+
+.personav-subcontent {
+    position:absolute;
+    bottom:14px;
+}
+
+#personav-name {
+    width:200px;
+    padding:0px 15px 0px 30px;
+}
+
+#personav-img {
+    width:auto;
+    padding:0px 23px;
+    border-left:1px solid #CDCFD0;
+    border-right:1px solid #CDCFD0;
+}
+
+#tiny-img {
+    cursor:pointer;
+    height:60px;
+    margin:12px 0px 0px 0px
+}
+
+#personav-major {
+    width:80px;
+    padding:0px 20px;
+    border-right:1px solid #CDCFD0;
+}
+
+#personav-link {
+    width:160px;
+    padding:0px 0px 0px 23px;
+}
+
+#cover {
+    height:300px;
+    width:100%;
+    margin:122px 0px 0px 0px;
+    position:relative;
+    float:left;
+    border-bottom:1px solid #CDCFD0;
+}
+
+#blurb {
+    width:400px;
+    position:absolute;
+    top:30px;
+    left:380px;
+}
+
+.project-doc, .project-gdoc {
+    height:auto;
+    width:100%;
+    padding:30px 0px 20px 0px;
+    position:relative;
+    float:left;
+    border-bottom:4px solid #000000;
+}
+
+.project-doc {
+    margin:0px;
+}
+
+.project-gdoc {
+    margin:30px 0px 0px 0px;
+}
+
+.p-info {
+    height:auto;
+    width:100%;
+    margin:0px 0px 20px 0px;
+    padding:20px 0px 40px 30px;
+    position:relative;
+    float:left;
+    border-bottom:1px solid #211F1F;
+}
+
+.p-info-col {
+    height:auto;
+    margin:0px 30px 0px 0px;
+    position:relative;
+    float:left;
+}
+
+.p-title {
+    width:320px;
+    padding:10px 0px 0px 0px;
+    background:url('../images/dash.gif') no-repeat;
+}
+
+.p-desc {
+    width:320px;
+    padding:10px 0px 0px 0px;
+    background:url('../images/dash.gif') no-repeat;
+}
+
+.p-misc {
+    width:320px;
+    margin:20px 0px 0px 0px;
+    padding:10px 0px 0px 0px;
+    background:url('../images/dash.gif') no-repeat;
+}
+
+.p-team h6,
+.p-oc h6,
+.p-tags h6,
+.p-links h6 {
+    margin:0px;
+    padding:0px;
+    
+    color:#221F1F;
+    font-weight:bold;
+    font-size:11px;
+    line-height:14px;
+    font-weight:bold;
+    letter-spacing:0.1em;
+}
+
+.p-team {
+    width:110px;
+    margin:0px 0px 20px 0px;
+    padding:0px;
+}
+
+.p-oc {
+    width:110px;
+    margin:0px;
+    padding:0px;
+}
+
+.p-tags {
+    width:110px;
+    margin:0px;
+    padding:0px;
+}
+
+.p-links {
+    width:110px;
+    margin:20px 0px 0px 0px;
+    padding:0px;
+}
+
+.hoverscroll-container {
+    width:100%;
+    height:460px;
+    margin:0px;
+    padding:0px;
+    position:relative;
+    float:left;
+}
+
+#thumb-wrapper {
+    width:100%;
+    position:relative;
+    top:80px;
+    left:14px;
+    float:left;
+}
+
+#related-head {
+    height:160px;
+    width:100%;
+    margin:0px;
+    padding:80px 0px 0px 30px;
+    position:relative;
+    float:left;
+}
+
+.thumb-head-col1 {
+    height:auto;
+    width:300px;
+    float:left;
+    margin:0px 20px 0px 0px;
+}
+
+#thumb-title {
+    float:left;
+    margin:0px 30px 0px 0px;
+    z-index:100;
+}
+
+#thumb-subtitle {
+    float:left;
+    margin:0px 0px 0px 0px;
+}
+
+.thumb-head-col2 {
+    height:auto;
+    width:160px;
+    float:left;
+    margin:0px 20px 0px 0px;
+}
+
+#thumb-count {
+    float:left;
+    margin:0px 30px 0px 0px;
+    padding:0px;
+    z-index:100;
+}
+
+.thumb-head-col3 {
+    height:auto;
+    width:450px;
+    float:left;
+    margin:0px;
+}
+
+#thumbstats-head {
+    height:auto;
+    width:100%;
+    margin:5px 0px 10px 0px;
+    border-bottom:1px solid #CDCFD0;
+}
+
+#thumbstats-num, #thumbstats-name, #thumbstats-bars {
+    height:auto;
+    margin:0px;
+    float:left;
+    font-size:12px;
+    line-height:16px;
+}
+
+#thumbstats-num {
+    width:auto;
+    padding:0px 5px 0px 0px;
+    text-align:right;
+    color:#CDCFD0;
+}
+
+#thumbstats-name {
+    width:170px;
+    padding:0px;
+    color:#8E9093;
+}
+
+#thumbstats-bars {
+    width:260px;
+    padding:0px;
+    float:left;
+    clear:right;
+    color:#8E9093;
+}
+
+#t-count {
+    margin:-4px 0px 0px 4px;
+    letter-spacing:0.1em;
+    color:#8E9093;
+    z-index:100;
+}
+
+.tbars {
+    height:10px;
+    margin:2px 0px 4px 0px;
+    position:relative;
+    float:left;
+    background-color:#8E9093;
+}
+
+
+.anchors {
+    position:absolute;
+    top:-134px;
+}

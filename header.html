@@ -1,0 +1,77 @@
+<!-- #HEADER provides the nav -->
+<!-- functions are controlled via scripts/topnav_functions_index.js -->
+<div id="header">
+    <div id="nav-show" class="nav-btn" style="margin:0px 0px 0px 18px;" onMouseOver="hideSubNav();"><p class="nav-btn-link">The Show</p></div>
+    <div id="nav-work" class="nav-btn" onMouseOver="showSubNav()" onMouseDown="hideSubNav();"><p class="nav-btn-link">The Work</p></div>
+    <div id="nav-cast" class="nav-btn" onMouseOver="hideSubNav();"><p class="nav-btn-link">The Cast</p></div>
+    <div id="nav-random" class="nav-btn" onClick="window.location='projects.php?w$randProjId'"><p class="nav-btn-link">Surprise Me</p></div>
+    <div id="nav-right"><p>UW DESIGN SHOW 2012</p></div>
+</div>
+
+
+<!-- #SUBNAV holds the keywords and can sort by them -->
+<!-- it should link to #THEWORK as an anchor, and filter by the type of project you click -->
+<div id="subnav" style="display:none;" onMouseOver="showSubNav();" onMouseOut="hideSubNav();">
+    
+    <div id="subnav-left" onMouseOver="showSubNav();">
+        <h1>I want to see...</h1>
+    </div>
+    
+    <div id="subnav-keywords" onMouseOver="showSubNav();">
+        
+        <div class="subnav-head" onMouseOver="showSubNav();">
+        <p>BY WORK</p>
+        </div>
+        
+        <div class="subnav-content" onMouseOver="showSubNav();">
+            <div class="subnav-col" onMouseOver="showSubNav();">
+                <p>
+                <a href="projects.php?kBranding">Branding</a><br>
+                <a href="projects.php?kConsumer-Product">Consumer Product</a><br>
+                <a href="projects.php?kEnvironment">Environment</a><br>
+                <a href="projects.php?kInfo-Visualization">Info Visualization</a><br>
+                <a href="projects.php?kInteractive">Interactive</a>
+                </p>
+            </div>
+            
+            <div class="subnav-col" onMouseOver="showSubNav();">
+                <p>
+                <a href="projects.php?kMedical/Science">Medical / Science</a><br>
+                <a href="projects.php?kMobile">Mobile</a><br>
+                <a href="projects.php?kMotion">Motion</a><br>
+                <a href="projects.php?kPrint">Print</a><br>
+                <a href="projects.php?kPublication">Publication</a>
+                </p>
+            </div>
+            
+            <div class="subnav-col" onMouseOver="showSubNav();">
+                <p>
+                <a href="projects.php?kSustainable">Sustainable</a><br>
+                <a href="projects.php?kSystems">Systems</a><br>
+                <a href="projects.php?kWeb-Design">Web Design</a>
+                </p>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <div id="subnav-majors" onMouseOver="showSubNav();">
+        
+        <div class="subnav-head" onMouseOver="showSubNav();">
+        <p>BY MAJOR</p>
+        </div>
+        
+        <div class="subnav-content" onMouseOver="showSubNav();">
+            <div class="subnav-col-wide" onMouseOver="showSubNav();">
+                <p>
+                <a href="projects.php?kID">Industrial Design</a><br>
+                <a href="projects.php?kIXD">Interaction Design</a><br>
+                <a href="projects.php?kVCD">Visual Communication Design</a>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+
+</div>

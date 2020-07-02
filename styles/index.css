@@ -1,0 +1,150 @@
+#work-container {
+    margin:0px 0px 0px 30px;
+    padding:0px;
+    position:relative;
+    float:right;
+}
+
+#thework {
+    height:0px;
+    margin:-13px 0px 0px 0px;
+    z-index:100;
+}
+
+#p-count {
+    margin:-4px 0px 0px 4px;
+    letter-spacing:0.1em;
+    color:#8E9093;
+    z-index:100;
+}
+
+#work-wrapper {
+    width:100%;
+    margin:40px 0px 0px 0px;
+    padding:0px 0px 0px 20px;
+    z-index:100;
+}
+
+#thecast {
+    height:40px;
+    margin:100px 0px 0px 0px;
+    width:100%;
+}
+
+#cast-container {
+    width:1060px;
+    height:auto;
+    margin:0px;
+    padding:0px;
+}
+
+#cast-head {
+    height:auto;
+    width:100%;
+    margin:0px 0px 60px 30px;
+    padding:23px 16px 23px 0px;
+    border-top:3px solid #221F1F;
+    border-bottom:1px solid #CDCFD0;
+}
+
+#thecast-title {
+    height:auto;
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+
+#cast-images {
+    height:auto;
+    width:485px;
+    padding:0px;
+    margin:0px;
+    position:relative;
+    float:right;
+}
+
+.castimg {
+    height:160px;
+}
+
+.cast-thumbs {
+    height:160px;
+    margin:10px -7px;
+    position:relative;
+    float:left;
+    cursor:pointer;
+}
+
+#cast-names {
+    height:auto;
+    width:510px;
+    margin:0px 0px 0px 30px;
+    padding:0px;
+    position:relative;
+    float:left;
+}
+
+.cast-col1, .cast-col2 {
+    height:auto;
+    position:relative;
+    float:left;
+}
+
+.cast-col1 {
+    margin:0px 20px 20px 0px;
+}
+
+.cast-col2 {
+    margin:0px 0px 20px 0px;
+}
+
+.cast-head {
+    margin:0px;
+    padding:8px 0px;
+    cursor:pointer;
+}
+
+.cast-subhead {
+    margin:0px;
+    padding:8px 0px;
+    border-top:2px solid #221F1F;
+    border-bottom:1px solid #CDCFD0;
+    cursor:pointer;
+}
+
+.name-col1, .name-col2 {
+    height:auto;
+    width:150px;
+    padding:0px;
+    position:relative;
+    float:left;
+}
+
+.name-col1 {
+    margin:0px 20px 0px 0px;
+}
+
+.name-col2 {
+    margin:0px;
+}
+
+.cast-names {
+    margin:14px 0px 0px 0px;
+    cursor:pointer;
+}
+
+#cast-id {
+    width:150px;
+}
+
+#cast-ixd {
+    width:320px;
+}
+
+#cast-vcd {
+    width:320px;
+}
+
+#cast-grad {
+    width:150px;
+}
